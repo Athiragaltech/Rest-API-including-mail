@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful HTML Page</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Header styles */
+        header {
+            background-color: #7c0606;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        /* Body styles */
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding-left: 300px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        /* Footer styles */
+        footer {
+            background-color: #520a0a;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our platform</h1>
+        
+    </header>
+
+   
+        <div class="content" style=" background-image: linear-gradient(to bottom, rgba(221, 198, 198, 0), rgb(153, 17, 17));">
+           
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: larger;align-items: center;">Dear {{ user.username }},</p>
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: larger;align-items: center;">Thank you for signing up. We are thrilled to have you join our community!</p>
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: larger;align-items: center;">You can now access all the features of our platform and start exploring.</p>
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: larger;align-items: center;">If you have any questions or need assistance, feel free to <a href="#" class="btn">contact us</a>.</p>
+           
+        </div>
+   
+    <footer>
+        <p>Galtech Solutions &copy; 2024</p>
+    </footer>
+</body>
+</html>
